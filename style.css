@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #1C325B; */
+    background-color: rgb(29, 29, 29);
+}
+
+/* _______________Header______________ */
+
+
+.logo-pic{
+    width: 180px;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    border-bottom: 0.1px solid #f2f2f2;
+}
+
+.head-content {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.nav p a{
+    text-decoration: none;
+}
+
+.btn-1 {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e6aa32;
+    font-size: 17px;
+    font-weight: 545;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* __________________first-Section_______________ */
+
+
+.frst-sec {
+    max-width: 100%;
+    height: 500px;
+    margin: auto;
+    border-bottom: 0.5px solid #f2f2f2;
+}
+
+.sec1-content{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* _________________Scnd-Section_______________ */
+
+.scnd-sec {
+    width: 100%;
+    height: fit-content;
+} 
+
+.texts{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.sst-1 {
+    font-size: 20px;
+    color: #797c86;
+}
+
+.sst-2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sst-3{
+    font-size: 14px;
+    color: #797c86;
+}
+
+.sec-2_content{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.box{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background: linear-gradient(232.96deg, #0E0E10 27.06%, #17171a3b 92.12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content img{
+    width: 45px;
+}
+
+.box-content h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.box-content p{
+    font-size: 14px;
+    font-weight: 200;
+    color: #e6e6e6;
+    margin-top: 15px;
+}
+
+
+ /* _______________________third-section__________________ */
+
+
+ .third-sec {
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+ }
+
+ .sec3-content{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+ }
+
+.tst-1{
+    font-weight: 400;
+}
+
+.box-1{
+    width: 480px;
+    height: 300px;
+    background-color: #797c86;
+}
+
+.box-container-2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.box-2{
+    background-image: url(./Images/Website-images/Black\ and\ Blue\ Minimalist\ Modern\ Travel\ Business\ Desktop\ Prototype.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-3{
+    background-image: url(./Images/Website-images/Blue\ and\ Magenta\ Gradient\ Modern\ Concert\ Event\ Desktop\ Prototype.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-4{
+    background-image: url(./Images/Website-images/Dark\ Blue\ and\ Green\ Minimalist\ Modern\ Nature\ Travel\ Desktop\ Prototype.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-5{
+    background-image: url(./Images/Website-images/Dark\ Purple\ and\ Blue\ Modern\ Testimonial\ Page\ Wireframe\ Website\ UI\ Prototype.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-6{
+    background-image: url(./Images/Website-images/✅.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-7{
+    background-image: url(./Images/Website-images/✅\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fourth-sec{
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.sec4-content{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+
+.sec4-box{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    border: 0.2px solid #383838;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(232.96deg, #0E0E10 27.06%, rgba(23, 23, 26, 0.23) 92.12%);
+}
+
+.sec4-box_container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.sec4-box-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    width: 100%;
+    height: 400px;
+}
